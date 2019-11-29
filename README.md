@@ -33,6 +33,7 @@ The following is a list of open source compilers that can generate C (or in some
 | [Genie](http://live.gnome.org/Genie) | Genie |
 | [GHC](https://www.haskell.org/ghc/) | Haskell | [C backend](https://downloads.haskell.org/~ghc/7.6.3/docs/html/users_guide/code-generators.html) documentation page.  |
 | [GnuCOBOL](http://open-cobol.sourceforge.net/) | COBOL 2014 with extensions | |
+| [gp2c](https://pari.math.u-bordeaux.fr/)| [PARI/GP](https://pari.math.u-bordeaux.fr/) | the GP-to-C compiler, combines the best of both worlds by compiling GP scripts to the C language and transparently loading the resulting functions into gp. |
 | [Haxe](http://haxe.org) | Haxe | Has separate C++ and C targets |
 | [Idris](http://www.idris-lang.org/) | Idris | A pure functional programming language with dependent types. |
 | [Ivory](http://ivorylang.org/) | Ivory | A Haskell eDSL for safe systems programming. |
@@ -56,6 +57,7 @@ The following is a list of open source compilers that can generate C (or in some
 | [OpenDylan](http://opendylan.org/) | Dylan |
 | [p2c](http://users.fred.net/tds/lab/p2c/) | Several Pascal dialects, including UCSD and Turbo Pascal; Modula-2. | Can generate C or C++ code. |
 | [ParparVM](https://github.com/codenameone/CodenameOne/tree/master/vm) | Java bytecode | Use for the Java to iOS portability part of the [Codename One](https://www.codenameone.com/) project. |
+| (pd_compiler)[https://github.com/sharebrained/pd_compiler] | (Pure Data)[https://puredata.info/] | Pure Data compiler, translates pd files into C code for compilation on embedded systems. Presently targeting ARM Cortex-M4F microcontrollers. |
 | [perlcc](http://search.cpan.org/dist/B-C/) | Perl 5 | |
 | [purescript-native](https://github.com/andyarvanitis/purescript-native) | PureScript | Targets C++, not C. |
 | [Py14](https://github.com/lukasmartinelli/py14) | Python | Targets C++, not C. |
