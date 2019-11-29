@@ -57,7 +57,7 @@ The following is a list of open source compilers that can generate C (or in some
 | [OpenDylan](http://opendylan.org/) | Dylan |
 | [p2c](http://users.fred.net/tds/lab/p2c/) | Several Pascal dialects, including UCSD and Turbo Pascal; Modula-2. | Can generate C or C++ code. |
 | [ParparVM](https://github.com/codenameone/CodenameOne/tree/master/vm) | Java bytecode | Use for the Java to iOS portability part of the [Codename One](https://www.codenameone.com/) project. |
-| (pd_compiler)[https://github.com/sharebrained/pd_compiler] | (Pure Data)[https://puredata.info/] | Pure Data compiler, translates pd files into C code for compilation on embedded systems. Presently targeting ARM Cortex-M4F microcontrollers. |
+| [pd_compiler](https://github.com/sharebrained/pd_compiler) | [Pure Data](https://puredata.info/) | Pure Data compiler, translates pd files into C code for compilation on embedded systems. Presently targeting ARM Cortex-M4F microcontrollers. |
 | [perlcc](http://search.cpan.org/dist/B-C/) | Perl 5 | |
 | [purescript-native](https://github.com/andyarvanitis/purescript-native) | PureScript | Targets C++, not C. |
 | [Py14](https://github.com/lukasmartinelli/py14) | Python | Targets C++, not C. |
