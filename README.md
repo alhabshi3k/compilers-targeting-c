@@ -4,7 +4,7 @@ The following is a list of open source compilers that can generate C (or in some
 
 | Project name/link | Language(s) supported | Notes |
 |-------------------|-----------------------|-------|
-| [ATS](http://www.ats-lang.org/) | ATS | |
+| [ATS](http://www.ats-lang.org/) | ATS | Applied Type System (ATS) is a statically typed programming language that unifies implementation with formal specification. It is equipped with a highly expressive type system rooted in it. In particular, both dependent types and linear types are available in it. |
 | [BaCon (Basic Converter)](http://basic-converter.org/) | Basic | |
 | [bc9Basic](https://sourceforge.net/projects/bc9basic/) | Basic | Can generate C or C++ code. Runs only on Windows but can generate code for *nix. A fork of [BCX](http://bcx-basic.sourceforge.net/) that outputs valid ISO/ANSI C. [Website archive](http://web.archive.org/web/20160405001529/http://bc9.bcxbasic.com/). |
 | [Bigloo](http://www-sop.inria.fr/mimosa/fp/Bigloo/) | Scheme (R5RS) | |
@@ -53,7 +53,7 @@ The following is a list of open source compilers that can generate C (or in some
 | [OBNC](http://www.miasap.se/obnc/) | Oberon | |
 | [ocamlcc](https://github.com/ocaml-bytes/ocamlcc) | OCaml | Compiles OCaml bytecode to C. |
 | [oi](https://github.com/hodefoting/oi/) | C with traits | Compiles to code that can be directly used from plain C. |
-| [ooc](http://ooc-lang.org) | ooc | |
+| [ooc](http://ooc-lang.org) | ooc | is a small programming language with a clear and concise syntax that compiles to C99. |
 | [OpenDylan](http://opendylan.org/) | Dylan |
 | [p2c](http://users.fred.net/tds/lab/p2c/) | Several Pascal dialects, including UCSD and Turbo Pascal; Modula-2. | Can generate C or C++ code. |
 | [ParparVM](https://github.com/codenameone/CodenameOne/tree/master/vm) | Java bytecode | Use for the Java to iOS portability part of the [Codename One](https://www.codenameone.com/) project. |
@@ -87,6 +87,7 @@ The following is a list of open source compilers that can generate C (or in some
 
 # See also
 * [Cello](http://libcello.org/), a library for high-level programming in C.
+* [Object Oriented C (ooc)](http://ooc-coding.sourceforge.net/) kit is for those who want to program in an object orieneted manner, but stick on the good old C as well. ooc implements classes, single and multiple inheritance, exception handling.
 * [Clue](http://cowlark.com/clue/), an ANSI C compiler targeting high level languages (Lua, JavaScript, Perl 5, C, Java, Common Lisp).
 * [LLVM C backend resurrected](https://github.com/draperlaboratory/llvm-cbe).
 * [luastatic](https://github.com/ers35/luastatic), a tool that builds standalone executables from Lua programs by embedding Lua code in C.
