@@ -48,18 +48,18 @@ The following is a list of open source compilers that can generate C (or in some
 | [Language84](http://norstrulde.org/language84/) | Language84 | Language 84 is a programming language with a self-hosting compiler. |
 | [mbeddr](http://mbeddr.com/) | mbeddr | A set of languages for embedded software engineering. |
 | [Mercury](http://www.mercurylang.org/) | Mercury(~Prolog) | Mercury is a logic/functional programming language which combines the clarity and expressiveness of declarative programming with advanced static analysis and error detection features. It produce intermediate C code. |
-| [MLton](http://mlton.org/) | Standard ML | |
+| [MLton](http://mlton.org/) | Standard ML | MLton is an optimizing Standard ML compiler, Supports the full SML 97 language specification. It can compile to C code. |
 | [Monkey 2](http://monkeycoder.co.nz/) | Monkey 2 | Targets C++, not C. |
-| [Mrustc](https://github.com/thepowersgang/mrustc) | Rust | |
+| [Mrustc](https://github.com/thepowersgang/mrustc) | Rust | This project is an attempt at creating a simple rust compiler into intermidate C code. |
 | [NectarJS](https://github.com/NectarJS/nectarjs) | JavaScript | The primary target is WebAssembly. [How to compile to C](https://github.com/NectarJS/nectarjs/issues/46#issuecomment-498532350). |
 | [Nim](http://nim-lang.org) | Nim | Can generate C, C++ or Objective C code. |
-| [Nit](http://nitlanguage.org/) | Nit | |
+| [Nit](http://nitlanguage.org/) | Nit | it is an expressive Object Oreinted language with a script-like syntax, a friendly type-system and aims at elegance, simplicity and intuitiveness. The syntax of Nit follows the Pascal tradition and is inspired by various script languages (especially Ruby). Its main objective is readability. |
 | [Nuitka](http://nuitka.net/) | Python | |
-| [OBNC](http://www.miasap.se/obnc/) | Oberon | |
+| [OBNC](http://www.miasap.se/obnc/) | Oberon |  is a compiler implementation the latest version of the Oberon Prgramming language from 2016. OBNC translates source code written in Oberon to the lower-level programming language C. |
 | [ocamlcc](https://github.com/ocaml-bytes/ocamlcc) | OCaml | Compiles OCaml bytecode to C. |
 | [oi](https://github.com/hodefoting/oi/) | C with traits | Compiles to code that can be directly used from plain C. |
 | [ooc](http://ooc-lang.org) | ooc | is a small programming language with a clear and concise syntax that compiles to C99. |
-| [OpenDylan](http://opendylan.org/) | Dylan | |
+| [OpenDylan](http://opendylan.org/) | Dylan | Dylan is a multi-paradigm programming language that includes support for functional and object-oriented programming (OOP), and is dynamic and reflective while providing a programming model designed to support generating efficient machine code, including fine-grained control over dynamic and static behaviors. It generate intermidate C code. |
 | [p2c](http://users.fred.net/tds/lab/p2c/) | Several Pascal dialects, including UCSD and Turbo Pascal; Modula-2. | Can generate C or C++ code. |
 | [ParparVM](https://github.com/codenameone/CodenameOne/tree/master/vm) | Java bytecode | Use for the Java to iOS portability part of the [Codename One](https://www.codenameone.com/) project. |
 | [pd_compiler](https://github.com/sharebrained/pd_compiler) | [Pure Data](https://puredata.info/) | Pure Data compiler, translates pd files into C code for compilation on embedded systems. Presently targeting ARM Cortex-M4F microcontrollers. |
