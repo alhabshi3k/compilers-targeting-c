@@ -10,7 +10,7 @@ The following is a list of open source compilers that can generate C (or in some
 | [bc9Basic](https://sourceforge.net/projects/bc9basic/) | Basic | Can generate C or C++ code. Runs only on Windows but can generate code for *nix. A fork of [BCX](http://bcx-basic.sourceforge.net/) that outputs valid ISO/ANSI C. [Website archive](http://web.archive.org/web/20160405001529/http://bc9.bcxbasic.com/). |
 | [Bigloo](http://www-sop.inria.fr/mimosa/fp/Bigloo/) | Scheme (R5RS) | Bigloo is a Scheme native-code compiler. It compiles Scheme code down to C, JVM bytecode or .NET bytecode. It includes type annotations, a unique object-oriented system based on CLOS, the Common Lisp Object System, and runtime performance is very close to C. |
 | [bmx-ng](https://github.com/bmx-ng/bcc) | BlitzMax | A Monkey-derived BlitzMax to C transpiler. |
-| [Carp](https://github.com/carp-lang/carp) | Carp | A statically typed lisp, without a GC, for real-time applications. |
+| [Carp](https://github.com/carp-lang/carp) | Lisp (Carp) | A statically typed lisp, without a GC, for real-time applications. |
 | [CFortranTranslator](https://github.com/CalvinNeo/CFortranTranslator) | Fortran | A translator from Fortran90/Fortran77(ISO/IEC 1539:1991) to C++, Not C. |
 | [Chapel](http://chapel.cray.com/) | Chapel | Chapel is a programming language designed for productive parallel computing on large-scale systems. Chapel's design and implementation have been undertaken with portability in mind, permitting Chapel to run on multicore desktops and laptops, commodity clusters, and the cloud, in addition to the high-end supercomputers for which it was designed. It can generate optimized C code. |
 | [CHICKEN Scheme](http://www.call-cc.org/) | Scheme (R5RS) | |
@@ -48,10 +48,12 @@ The following is a list of open source compilers that can generate C (or in some
 | [Language84](http://norstrulde.org/language84/) | Language84 | Language 84 is a programming language with a self-hosting compiler. |
 | [mbeddr](http://mbeddr.com/) | mbeddr | A set of languages for embedded software engineering. |
 | [Mercury](http://www.mercurylang.org/) | Mercury(~Prolog) | Mercury is a logic/functional programming language which combines the clarity and expressiveness of declarative programming with advanced static analysis and error detection features. It produce intermediate C code. |
+| [M (Mosaic)](https://github.com/sal55/langs/tree/master/Mosaic) | M (inspired by Algol-68) | M is a systems language first devised for 8-bit Z80 systems in early 1980s, since evolved and now targeting 64-bit Windows machines using x64 processor. It builds to a single executable file that I usually call mm.exe, currently some 0.6MB, which includes a small set of libraries. (That is, the sources for the libraries are part of the executable.) This gives a tidy self-contained compiler. | 
 | [MLton](http://mlton.org/) | Standard ML | MLton is an optimizing Standard ML compiler, Supports the full SML 97 language specification. It can compile to C code. |
 | [Monkey 2](http://monkeycoder.co.nz/) | Monkey 2 | Targets C++, not C. |
 | [Mrustc](https://github.com/thepowersgang/mrustc) | Rust | This project is an attempt at creating a simple rust compiler into intermidate C code. |
 | [NectarJS](https://github.com/NectarJS/nectarjs) | JavaScript | The primary target is WebAssembly. [How to compile to C](https://github.com/NectarJS/nectarjs/issues/46#issuecomment-498532350). |
+| [Nelua](https://nelua.io) | Lua | Nelua, stands for Native Extensible Lua, is a minimalistic, efficient, optionally typed, ahead of time compiled, meta programmable, systems programming language with syntax and semantics similar to Lua. It can work statically or dynamically depending on the code style and compiles to native machine code. Nelua compiles to C first then to the target native code. compiling on Windows is done using WSL or msys2. |
 | [Nim](http://nim-lang.org) | Nim | Can generate C, C++ or Objective C code. |
 | [Nit](http://nitlanguage.org/) | Nit | it is an expressive Object Oreinted language with a script-like syntax, a friendly type-system and aims at elegance, simplicity and intuitiveness. The syntax of Nit follows the Pascal tradition and is inspired by various script languages (especially Ruby). Its main objective is readability. |
 | [Nuitka](http://nuitka.net/) | Python | |
