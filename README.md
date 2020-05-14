@@ -93,6 +93,7 @@ The following is a list of open source compilers that can generate C (or in some
 
 # See also
 * [Cello](http://libcello.org/), a library for high-level programming in C.
+* [Dynace](https://github.com/blakemcbride/Dynace), a portable, open-source object-oriented extension to the C, inspired by smalltalk and CLOS.
 * [Object Oriented C (ooc)](http://ooc-coding.sourceforge.net/) kit is for those who want to program in an object orieneted manner, but stick on the good old C as well. ooc implements classes, single and multiple inheritance, exception handling.
 * [Clue](http://cowlark.com/clue/), an ANSI C compiler targeting high level languages (Lua, JavaScript, Perl 5, C, Java, Common Lisp).
 * [LLVM C backend resurrected](https://github.com/draperlaboratory/llvm-cbe).
