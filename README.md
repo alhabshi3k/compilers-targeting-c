@@ -39,7 +39,7 @@ The following is a list of open source compilers that can generate C (or in some
 | [GHC](https://www.haskell.org/ghc/) | Haskell | [C backend](https://downloads.haskell.org/~ghc/7.6.3/docs/html/users_guide/code-generators.html) documentation page. |
 | [GnuCOBOL](http://open-cobol.sourceforge.net/) | COBOL 2014 with extensions | The compiler can translate COBOL source files are into C files. |
 | [gp2c](https://pari.math.u-bordeaux.fr/)| [PARI/GP](https://pari.math.u-bordeaux.fr/) | the GP-to-C compiler, combines the best of both worlds by compiling GP scripts to the C language and transparently loading the resulting functions into gp. |
-| [Haxe](http://haxe.org) | Haxe | Has separate C++ and C targets |
+| [Haxe](http://haxe.org) | Haxe | Has separate C++ and C targets. Compilation to C is done using [HashLink](https://hashlink.haxe.org/) transpiler (HL/C). |
 | [Idris](http://www.idris-lang.org/) | Idris | A pure functional programming language with dependent types. |
 | [Ivory](http://ivorylang.org/) | Ivory | A Haskell eDSL for safe systems programming. |
 | [jhc](http://repetae.net/computer/jhc/) | Haskell 98 | The resulting code doesn't use a garbage collector. |
